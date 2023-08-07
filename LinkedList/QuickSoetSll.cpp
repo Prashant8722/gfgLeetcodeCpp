@@ -17,7 +17,7 @@ node* partition(node* head, node* tail) {
 
     // Iterate through the sublist until we reach the tail
     while (nex != tail) {
-        if (pivot->data > nex->data) {
+        if (nex->data < pivot->data ) {
             // If the current node's data is less than the pivot node's data,
             // move the current node forward and swap its data with the next node's data
             swap(curr->next->data, nex->data);
