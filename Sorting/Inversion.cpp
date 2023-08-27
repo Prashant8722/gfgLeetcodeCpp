@@ -50,8 +50,8 @@
 
     int main()
 {
-    long long nums[] = {2, 4 ,1, 3, 5};
+    long long nums[] = {50 , 40 ,20 ,5 ,19 ,90 , 23 ,16};
     long long nums1[] = {1, 5 ,11 ,41 ,8 ,15 ,21};
     long long nums2[] = {50 ,40 ,20,5,19,90,23,16 };
-    cout << inversionCount(nums2,8) << endl;
+    cout << inversionCount(nums,8) << endl;
 }
